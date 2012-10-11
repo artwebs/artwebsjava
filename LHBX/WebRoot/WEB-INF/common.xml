@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <daemon>
+	<thread></thread>
+ </daemon>
+ <pool>
+	<thread></thread>
+ </pool>
+ <job>
+	<thread></thread>
+ </job>

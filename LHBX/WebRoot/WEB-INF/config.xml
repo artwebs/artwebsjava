@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <appSettings>
+  <add key="DB_Type" value="Oracle"/>
+   <add key="DB_Driver" value="oracle.jdbc.driver.OracleDriver"/>
+   <add key="DB_Url" value="jdbc:oracle:thin:@localhost:orcl1"/>
+   <add key="DB_UserName" value=""/>
+   <add key="DB_UserPwd" value=""/>
+  
+  <add key="DICDB_Type" value="Oracle"/>
+  <add key="DICDB_Driver" value="oracle.jdbc.driver.OracleDriver"/>
+  <add key="DICDB_Url" value="jdbc:oracle:thin:@localhost:1521:orcl"/>
+  <add key="DICDB_UserName" value=""/>
+  <add key="DICDB_UserPwd" value=""/> 
+ 
+  <add key="Sms_wsdl" value="http://localhost/SMSInterface/Service.asmx?WSDL"/> 
+  <add key="Sms_UserName" value=""/>
+  <add key="Sms_UserPwd" value=""/>
+  
+  <add key="AppFlag" value="true"/>
+  <add key="Package_client" value="com.lhb.app.action.client"/>
+ </appSettings>

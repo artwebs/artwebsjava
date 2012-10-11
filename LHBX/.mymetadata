@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="LHBX"
+  id="myeclipse.1274512266343"
+  context-root="/LHBX"
+  j2ee-spec="5.0"
+  archive="LHBX.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

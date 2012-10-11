@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Jan 12 16:53:05 CST 2012
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=F\:\\\u53D1\u5E03\u5305\\java\\PalmLink_lhbx2012.01.12.02.jar
+manifest.mergeall=false
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=<po|LHBX>~.svn/;<jar|javaee.jar>;<jar|jsf-impl.jar>;<jar|jsf-api.jar>;<jar|jstl-1.2.jar>;<jar|XmlSchema-1.1.jar>;<jar|acrobat.jar>;<jar|activation-1.1.jar>;<jar|commons-beanutils-1.7.0.jar>;<jar|commons-codec-1.3.jar>;<jar|commons-httpclient-3.0.jar>;<jar|commons-logging-1.0.4.jar>;<jar|iText-2.1.7.jar>;<jar|iText-rtf-2.1.4.jar>;<jar|jaxen-1.1-beta-9.jar>;<jar|jaxws-api-2.0.jar>;<jar|jdom-1.0.jar>;<jar|jsf-api.jar>;<jar|jsf-impl.jar>;<jar|jsr173_api-1.0.jar>;<jar|jstl-1.2.jar>;<jar|mail-1.4.jar>;<jar|plugin.jar>;<jar|saaj-api-1.3.jar>;<jar|saaj-impl-1.3.jar>;<jar|spring-1.2.6.jar>;<jar|stax-api-1.0.1.jar>;<jar|wsdl4j-1.6.1.jar>;<jar|wstx-asl-3.2.0.jar>;<jar|xbean-2.2.0.jar>;<jar|xbean-spring-2.8.jar>;<jar|xfire-aegis-1.2.6.jar>;<jar|xfire-annotations-1.2.6.jar>;<jar|xfire-core-1.2.6.jar>;<jar|xfire-java5-1.2.6.jar>;<jar|xfire-jaxws-1.2.6.jar>;<jar|xfire-jsr181-api-1.0-M1.jar>;<jar|xfire-spring-1.2.6.jar>;<jar|commons-net-ftp-2.0.jar>;<jar|jftp.jar>;<jar|mysql-connector-java-5.1.6-bin.jar>;<jar|oracle_jdbc.jar>;<jar|rowset.jar>;<jar|sqljdbc.jar>;<jar|sqljdbc4.jar>;<jar|commons-lang-2.5.jar>;<jar|ant.jar>;<jar|poi-3.6-20091214.jar>;<jar|quartz-1.5.2.jar>;<jar|ocrs12.jar>;<jar|dom4j-1.6.1.jar>;<jar|ftp4j-1.6.1.jar>;<jar|jxls-core-0.9.1.jar>
+includes=
