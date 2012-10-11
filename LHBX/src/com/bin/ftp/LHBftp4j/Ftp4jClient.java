@@ -1,5 +1,7 @@
 package com.bin.ftp.LHBftp4j;
 
+import it.sauronsoftware.ftp4j.FTPClient;
+
 import java.io.File;
 import java.util.Locale;
 
