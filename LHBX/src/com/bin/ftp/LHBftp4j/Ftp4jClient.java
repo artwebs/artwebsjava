@@ -1,7 +1,5 @@
 package com.bin.ftp.LHBftp4j;
 
-import it.sauronsoftware.ftp4j.FTPClient;
-
 import java.io.File;
 import java.util.Locale;
 
@@ -20,6 +18,12 @@ import com.bin.object.BinList;
 import com.bin.object.BinMap;
 import com.bin.utils.Utils;
 
+import it.sauronsoftware.ftp4j.FTPClient;
+import it.sauronsoftware.ftp4j.FTPConnector;
+import it.sauronsoftware.ftp4j.FTPFile;
+import it.sauronsoftware.ftp4j.connectors.DirectConnector;
+import it.sauronsoftware.ftp4j.connectors.SOCKS4Connector;
+import it.sauronsoftware.ftp4j.connectors.SOCKS5Connector;
 
 public class Ftp4jClient extends IAFtpClient{
 	
@@ -476,7 +480,7 @@ public class Ftp4jClient extends IAFtpClient{
 		//System.out.println(files[2]);
 		//System.out.println(ftp.getFileProperties("SMSOUT00000000000050.zip").getItem());
 		
-		//Ftp4jClient ftp=new Ftp4jClient(new FtpModel("localhost",21,"","","/uploads/ftp"));
+		//Ftp4jClient ftp=new Ftp4jClient(new FtpModel("211.139.26.236",21,"yibao","yunnan~!#2010yibao","/uploads/ftp"));
 		//ftp.downloadFile("TRAN_MER_888002493390000_20100506.dat", "D:/temp/ftp/");
 		
 //		LHBList list=ftp.getFileLHBList("Police*Swap.zip");

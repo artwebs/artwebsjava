@@ -1,5 +1,7 @@
 package com.bin.ftp.LHBftp4j;
 
+import it.sauronsoftware.ftp4j.FTPDataTransferListener;
+
 
 public class FtpListener implements FTPDataTransferListener { 
         private FTPOptType optType; 

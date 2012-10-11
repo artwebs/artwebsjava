@@ -13,8 +13,8 @@ public class MailTest extends TestCase {
 	      mailInfo.setMailServerHost("smtp.163.com");   
 	      mailInfo.setMailServerPort("25");   
 	      mailInfo.setValidate(true);   
-	      mailInfo.setUserName("artwebs@163.com");   
-	      mailInfo.setPassword("bing2004");//ÄúµÄÓÊÏäÃÜÂë   
+	      mailInfo.setUserName("test@163.com");   
+	      mailInfo.setPassword("");//ÄúµÄÓÊÏäÃÜÂë   
 	      mailInfo.setFromAddress("artwebs@163.com");   
 	      mailInfo.setToAddress("artwebs@126.com");   
 	      mailInfo.setSubject("ÉèÖÃÓÊÏä±êÌâ");   
