@@ -112,7 +112,7 @@ public class ClientModel implements IClient{
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ClientModel client=new ClientModel("116.55.248.20",9558);
+		ClientModel client=new ClientModel("localhost",9558);
 		client.send("HMV1.00|20100715122323|YXJ0MDA0|MTIzNDU2|km122|8888\r\n", "gbk", true);
 		System.out.println(client.read(20000, "gbk"));
 	    client.close();
